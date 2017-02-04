@@ -13,10 +13,13 @@
     "url": "git+https://github.com/Eddymogollon/microservice-timestamp.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Eddy Mogollon",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Eddymogollon/microservice-timestamp/issues"
   },
-  "homepage": "https://github.com/Eddymogollon/microservice-timestamp#readme"
+  "homepage": "https://github.com/Eddymogollon/microservice-timestamp#readme",
+  "engines": {
+    "node": "4.0.5"
+  }
 }
