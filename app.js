@@ -1,6 +1,7 @@
 var http = require('http');
 var fs = require('fs');
 var time = require("./time.js");
+var port = process.env.PORT || 5000;
 
 http.createServer(function(request, response) {
 
@@ -37,5 +38,5 @@ http.createServer(function(request, response) {
     
   }
   response.end();
-}).listen($PORT);
-console.log("Server listening to port 8080");
+}).listen(port);
+console.log("Server listening to port 5000");
