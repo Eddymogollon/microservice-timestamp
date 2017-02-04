@@ -37,5 +37,5 @@ http.createServer(function(request, response) {
     
   }
   response.end();
-}).listen(process.env.PORT, process.env.IP);
-console.log("The server has been created.");
+}).listen(8080);
+console.log("Server listening to port 8080");
